@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spelling Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Spelling Test</h1>
+        <div class="score-container">
+            <p class="correct-score">Correct: <span id="correct-count">0</span>/<span id="total">0</span></p>
+            <p class="incorrect-score">Incorrect: <span id="incorrect-count">0</span>/<span id="total-incorrect">0</span></p>
+            <p class="remaining">Remaining: <span id="remaining-count">0</span></p>
+        </div>
+        <div class="word-container">
+            <p id="current-word"></p>
+            <button id="speak-btn">🔊 Speak Word</button>
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type the word here..." autocomplete="off" spellcheck="false">
+            <button id="check-btn">Check</button>
+            <button id="next-btn" disabled>Next</button>
+        </div>
+        <div id="result"></div>
+        <div class="incorrect-words-container">
+            <button id="toggle-incorrect-btn">Show Incorrect Words</button>
+            <ul id="incorrect-words-list" class="hidden"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
