@@ -36,6 +36,7 @@ A simple and interactive web application to help you practice and improve your s
 - `styles.css`: Styling for the application
 - `script.js`: Core functionality and logic
 - `words.txt`: List of words to practice (one word per line)
+simply rename sample-words.txt to words.txt and add your own words.
 
 ## Customization
 
